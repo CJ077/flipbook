@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>CSS Flip Book</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="book">
+      <input type="checkbox" id="c1" />
+      <input type="checkbox" id="c2" />
+      <input type="checkbox" id="c3" />
+      <div id="cover"><img src="1.jpg" /></div>
+      <div class="flip-book">
+        <div class="flip" id="p1">
+          <div class="back">
+            <img src="2.jpg" />
+            <label class="back-btn" for="c1">Back</label>
+          </div>
+          <div class="front">
+            <h2>Apple</h2>
+            <p>
+              An apple is an edible fruit produced by an apple tree. Apple trees are cultivated worldwide and are the most widely grown species in the genus Malus. The tree originated in Central Asia, where its wild ancestor, Malus sieversii, is still found today.
+            </p>
+            <label class="next-btn" for="c1">Next</label>
+          </div>
+        </div>
+        <div class="flip" id="p2">
+          <div class="back">
+            <img src="3.jpg" />
+            <label class="back-btn" for="c2">Back</label>
+          </div>
+          <div class="front">
+            <h2>Pineapple</h2>
+            <p>
+              The pineapple is a tropical plant with an edible fruit and the most economically significant plant in the family Bromeliaceae. The pineapple is indigenous to South America, where it has been cultivated for many centuries.
+            </p>
+            <label class="next-btn" for="c2">Next</label>
+          </div>
+        </div>
+
+        <div class="flip" id="p3">
+          <div class="back">
+            <label class="back-btn" for="c3">Back</label>
+          </div>
+          <div class="front">
+            <h2>Strawberry</h2>
+            <p>
+              The garden strawberry is a widely grown hybrid species of the genus Fragaria, collectively known as the strawberries, which are cultivated worldwide for their fruit. The fruit is widely appreciated for its characteristic aroma, bright red color, juicy texture, and sweetness.
+            </p>
+            <label class="next-btn" for="c3">Next</label>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
